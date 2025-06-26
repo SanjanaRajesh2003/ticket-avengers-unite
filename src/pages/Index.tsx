@@ -1,10 +1,7 @@
-
 import { Shield, Zap, ArrowRight, Target, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-avengers-black via-avengers-black-light to-avengers-gray-dark overflow-hidden">
+  return <div className="min-h-screen bg-gradient-to-br from-avengers-black via-avengers-black-light to-avengers-gray-dark overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(220,38,38,0.1)_0%,_transparent_70%)]" />
       <div className="absolute inset-0 bg-[linear-gradient(45deg,_transparent_30%,_rgba(220,38,38,0.05)_50%,_transparent_70%)]" />
@@ -29,7 +26,7 @@ const Index = () => {
           
           <div className="flex items-center justify-center gap-2 text-avengers-gold">
             <Zap className="w-5 h-5" />
-            <span className="text-sm font-medium tracking-widest">POWERED BY AI</span>
+            <span className="text-sm font-medium tracking-widest">POWERED BY AGENTIC-AI</span>
             <Zap className="w-5 h-5" />
           </div>
         </div>
@@ -54,11 +51,7 @@ const Index = () => {
                   </div>
                 </div>
                 
-                <p className="text-avengers-silver text-lg mb-8 leading-relaxed">
-                  Intelligent ticket classification powered by advanced AI algorithms. 
-                  Automatically categorize, prioritize, and route tickets to the right teams 
-                  with superhuman accuracy and speed.
-                </p>
+                <p className="text-avengers-silver text-lg mb-8 leading-relaxed">Intelligent ticket classification powered by Gen-AI . RAG Automatically triage tickets to the right teams with superhuman accuracy and speed.</p>
                 
                 <div className="space-y-3 mb-8">
                   <div className="flex items-center text-sm text-avengers-silver">
@@ -101,11 +94,7 @@ const Index = () => {
                   </div>
                 </div>
                 
-                <p className="text-avengers-silver text-lg mb-8 leading-relaxed">
-                  Advanced pattern recognition to identify duplicate and similar tickets. 
-                  Reduce workload, improve response times, and maintain consistency 
-                  across your support operations.
-                </p>
+                <p className="text-avengers-silver text-lg mb-8 leading-relaxed">Advanced pattern recognition to identify duplicate and similar tickets. Reduce workload, improve response times, and maintain consistency across the support operations.</p>
                 
                 <div className="space-y-3 mb-8">
                   <div className="flex items-center text-sm text-avengers-silver">
@@ -143,8 +132,6 @@ const Index = () => {
       {/* Decorative Elements */}
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-avengers-red/5 rounded-full blur-3xl transform -translate-x-32 translate-y-32" />
       <div className="absolute top-1/4 right-0 w-48 h-48 bg-avengers-red/5 rounded-full blur-3xl transform translate-x-24" />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
