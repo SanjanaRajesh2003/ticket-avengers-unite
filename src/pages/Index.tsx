@@ -1,10 +1,7 @@
-
 import { Shield, Zap, ArrowRight, Target, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const Index = () => {
-  return (
-    <div className="h-screen bg-gradient-to-br from-avengers-black via-avengers-black-light to-avengers-gray-dark overflow-hidden">
+  return <div className="h-screen bg-gradient-to-br from-avengers-black via-avengers-black-light to-avengers-gray-dark overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(220,38,38,0.1)_0%,_transparent_70%)]" />
       <div className="absolute inset-0 bg-[linear-gradient(45deg,_transparent_30%,_rgba(220,38,38,0.05)_50%,_transparent_70%)]" />
@@ -54,7 +51,7 @@ const Index = () => {
                   </div>
                 </div>
                 
-                <p className="text-avengers-silver text-sm mb-4 leading-relaxed">Intelligent ticket classification powered by Agentic-AI. Automatically triage tickets to the right teams with superhuman accuracy.</p>
+                <p className="text-avengers-silver text-sm mb-4 leading-relaxed">Intelligent ticket classification powered by Agentic-AI. LLM, RAG Steps to efficiently triage tickets to the right teams with superhuman accuracy.</p>
                 
                 <div className="space-y-2 mb-4">
                   <div className="flex items-center text-xs text-avengers-silver">
@@ -97,7 +94,7 @@ const Index = () => {
                   </div>
                 </div>
                 
-                <p className="text-avengers-silver text-sm mb-4 leading-relaxed">Advanced pattern recognition to identify duplicate and similar tickets. Reduce workload and improve response times across operations.</p>
+                <p className="text-avengers-silver text-sm mb-4 leading-relaxed">Advanced pattern recognition to identify duplicate and similar tickets. Reduce workload and improve response times across the support operations.</p>
                 
                 <div className="space-y-2 mb-4">
                   <div className="flex items-center text-xs text-avengers-silver">
@@ -135,8 +132,6 @@ const Index = () => {
       {/* Decorative Elements */}
       <div className="absolute bottom-0 left-0 w-48 h-48 bg-avengers-red/5 rounded-full blur-3xl transform -translate-x-24 translate-y-24" />
       <div className="absolute top-1/4 right-0 w-32 h-32 bg-avengers-red/5 rounded-full blur-3xl transform translate-x-16" />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
