@@ -51,7 +51,7 @@ const Index = () => {
                   </div>
                 </div>
                 
-                <p className="text-avengers-silver text-lg mb-8 leading-relaxed">Intelligent ticket classification powered by Gen-AI . RAG Automatically triage tickets to the right teams with superhuman accuracy and speed.</p>
+                <p className="text-avengers-silver text-lg mb-8 leading-relaxed">Intelligent ticket classification powered by Agentic-AI . LLM, RAG Automatically triage tickets to the right teams with superhuman accuracy and speed.</p>
                 
                 <div className="space-y-3 mb-8">
                   <div className="flex items-center text-sm text-avengers-silver">
