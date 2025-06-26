@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Avengers theme colors
+				avengers: {
+					red: '#dc2626',
+					'red-glow': '#ef4444',
+					'red-dark': '#991b1b',
+					black: '#0f0f0f',
+					'black-light': '#1a1a1a',
+					'gray-dark': '#262626',
+					'gray-light': '#404040',
+					silver: '#e5e7eb',
+					gold: '#fbbf24'
 				}
 			},
 			borderRadius: {
@@ -84,11 +97,44 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'glow-pulse': {
+					'0%, 100%': {
+						boxShadow: '0 0 20px rgba(220, 38, 38, 0.5)'
+					},
+					'50%': {
+						boxShadow: '0 0 40px rgba(220, 38, 38, 0.8), 0 0 60px rgba(220, 38, 38, 0.6)'
+					}
+				},
+				'slide-in-up': {
+					'0%': {
+						transform: 'translateY(100px)',
+						opacity: '0'
+					},
+					'100%': {
+						transform: 'translateY(0)',
+						opacity: '1'
+					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0'
+					},
+					'100%': {
+						opacity: '1'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'glow-pulse': 'glow-pulse 2s ease-in-out infinite',
+				'slide-in-up': 'slide-in-up 0.8s ease-out',
+				'fade-in': 'fade-in 1s ease-out'
+			},
+			fontFamily: {
+				'hero': ['Orbitron', 'sans-serif'],
+				'display': ['Rajdhani', 'sans-serif']
 			}
 		}
 	},
