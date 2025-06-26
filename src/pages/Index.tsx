@@ -67,11 +67,12 @@ const Index = () => {
                     Team Auto-routing
                   </div>
                 </div>
-                
+                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
                 <Button className="w-full bg-gradient-to-r from-avengers-red to-avengers-red-dark hover:from-avengers-red-dark hover:to-avengers-red text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 group-hover:shadow-lg group-hover:shadow-avengers-red/30">
                   <span>Engage Auto Triage</span>
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
                 </Button>
+                </a>
               </div>
             </div>
           </div>
@@ -110,11 +111,12 @@ const Index = () => {
                     Knowledge Base Integration
                   </div>
                 </div>
-                
+                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
                 <Button className="w-full bg-gradient-to-r from-avengers-red to-avengers-red-dark hover:from-avengers-red-dark hover:to-avengers-red text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 group-hover:shadow-lg group-hover:shadow-avengers-red/30">
                   <span>Deploy Similar Search</span>
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
                 </Button>
+                </a> 
               </div>
             </div>
           </div>
